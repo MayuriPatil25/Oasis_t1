@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#"><img src="./Images/cflogo.png" class="logo"></a>
+      <ul>
+        <li><a href="#"><b>Home</a></b></li>
+        <li><a href="#"><b>Menu</a></b></li>
+        <li><a href="#"><b>What's new</a></b></li>
+        <li><a href="#"><b>Contact</a></b></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+
+        <h2>It's not just Coffee<br> It's <span>Tradition</span></h2>
+        <p>Tradition's Coffee is the healthiest way to take your coffee is hot-brewed and black.<br>One cup has
+          virtually no calories or carbs, no fat, and is low in sodium. Black coffee also has micronutrients, including
+          potassium, magnesium, and niacin.
+          It is the India's largest coffeehouse.</p>
+
+        <a href="#">Learn More</a>
+      </div>
+      <div class="imgbox">
+        <img src="./Images/img2.png" class="starbucks">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="./Images/facebook.png"></li>
+      <li><img src="./Images/twitterlogo.jpg"></li>
+      <li><img src="./Images/instalogo.jpg"></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="#"><img src="./Images/FB-logo.png"></a></li>
+      <li><a href="#"><img src="./Images/twitterlogo.jpg"></a></li>
+      <li><a href="#"><img src="./Images/instalo.jpg"></a></li>
+    </ul>
+  </section>
+
+  <script type="text/javascript">
+    function imgSlider(anything) {
+      document.querySelector('.starbucks').src = anything;
+    }
+    function changeCircleColor(color) {
+      const circle = document.querySelector(".circle");
+      circle.style.background = color;
+    }
+
+  </script>
+
+</body>
+
+</html>
